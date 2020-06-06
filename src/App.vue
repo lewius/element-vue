@@ -30,9 +30,6 @@
           <el-menu-item-group>
             <template slot="title">page router</template>
             <router-link to="/">
-              <el-menu-item index="1-1">Index</el-menu-item>
-            </router-link>
-            <router-link to="/dashboards">
               <el-menu-item index="1-2">Dashboards</el-menu-item>
             </router-link>
             <router-link to="/form">

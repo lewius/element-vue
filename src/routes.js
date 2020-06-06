@@ -9,7 +9,7 @@ import Richtext from './components/Richtext'
 export default [
     {
         path: '/',
-        component: HelloWorld
+        component: Dashboards
     },
     {
         path: '/table',
