@@ -44,8 +44,11 @@
             <router-link to="/table">
               <el-menu-item index="1-5">Table</el-menu-item>
             </router-link>
-              <router-link to="/upload">
+            <router-link to="/upload">
               <el-menu-item index="1-5">Upload</el-menu-item>
+            </router-link>              
+            <router-link to="/richtext">
+              <el-menu-item index="1-5">Richtext</el-menu-item>
             </router-link>
           </el-menu-item-group>
         </el-submenu>

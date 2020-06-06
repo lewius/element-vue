@@ -4,6 +4,7 @@ import Form from './components/Form'
 import Transfer from './components/Transfer'
 import Dashboards from './components/Dashboards'
 import Upload from './components/Upload'
+import Richtext from './components/Richtext'
 
 export default [
     {
@@ -29,5 +30,9 @@ export default [
     {
         path: '/upload',
         component: Upload
+    },
+    {
+        path: '/richtext',
+        component: Richtext
     }
 ];
