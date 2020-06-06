@@ -34,8 +34,8 @@ jobs:
     - name: Login docker registry
       run: echo ${{ secrets.DOCKERHUB_PASSWORD }} | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag leyius/lil-blog:latest
+      run: docker build . --file Dockerfile --tag leyius/element-vue:latest
     - name: Push docker image
-      run: docker push leyius/lil-blog:latest
+      run: docker push leyius/element-vue:latest
     - name: remove docker image
-      run: docker rmi leyius/lil-blog:latest
+      run: docker rmi leyius/element-vue:latest
